@@ -1,0 +1,12 @@
+{
+  "name": "gouden-horizon",
+  "version": "5.6.1",
+  "private": true,
+  "type": "module",
+  "description": "Een geschilderde 2.5D action RPG over een klimaat-expeditie in Nederland.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node qa/engine-tests.mjs && node qa/expedition-tests.mjs && node qa/balance-tests.mjs && node qa/story-tests.mjs && node qa/upgrades-tests.mjs && node qa/survival-tests.mjs && node qa/combat-quest-tests.mjs && node qa/market-endgame-tests.mjs && node qa/terrain-tests.mjs && node qa/presentation-tests.mjs && node qa/sound-tests.mjs && node qa/simulate-run.mjs && node qa/trial-run.mjs",
+    "site:build": "node scripts/build-static.mjs"
+  }
+}

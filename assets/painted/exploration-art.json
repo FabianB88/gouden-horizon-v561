@@ -1,0 +1,653 @@
+{
+  "generationTool": "built-in image_gen",
+  "reference": "assets/painted/flood-arena.webp",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "coordinateConvention": "All navigation coordinates are normalized x,y image positions. Polygons are approximate hand-traced suggestions and should be used as a union of separate floors, never one convex hull. Clip small planter, cabinet and column obstructions for final collision.",
+  "assets": [
+    {
+      "name": "canal-route",
+      "path": "assets/painted/canal-route.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: flooded Rotterdam canal district. A dry worn stone quay street enters from the lower-left, a broad diagonal pedestrian bridge forms the central connected route over a teal canal and continues to an upper-right dry quay. Overgrown modern Dutch buildings, glass walls, salvaged solar roofs and narrow boats sit at outer margins. Broad bridge deck and connected quays have completely clear flat walkable paving, with rails along OUTER sides. A connected quay side branch creates a dry open pocket around (.55,.65), plus another exploration spur. Teal water is confined around route margins, never at the three specified gameplay points. Warm golden dappled light, lush foliage and rich weathered materials.",
+      "start": [
+        0.22,
+        0.62
+      ],
+      "exit": [
+        0.78,
+        0.23
+      ],
+      "pocket": [
+        0.66,
+        0.58
+      ],
+      "polygons": [
+        [
+          [
+            0.18,
+            0.62
+          ],
+          [
+            0.75,
+            0.2
+          ],
+          [
+            0.82,
+            0.2
+          ],
+          [
+            0.82,
+            0.25
+          ],
+          [
+            0.24,
+            0.67
+          ],
+          [
+            0.18,
+            0.67
+          ]
+        ],
+        [
+          [
+            0.56,
+            0.42
+          ],
+          [
+            0.59,
+            0.42
+          ],
+          [
+            0.66,
+            0.51
+          ],
+          [
+            0.62,
+            0.54
+          ]
+        ],
+        [
+          [
+            0.61,
+            0.54
+          ],
+          [
+            0.66,
+            0.52
+          ],
+          [
+            0.73,
+            0.57
+          ],
+          [
+            0.7,
+            0.62
+          ],
+          [
+            0.64,
+            0.62
+          ],
+          [
+            0.61,
+            0.59
+          ]
+        ]
+      ],
+      "blockedTargets": [
+        {
+          "point": [
+            0.78,
+            0.3
+          ],
+          "reason": "Exit touches leafy planter at outer stair edge; move onto bridge floor."
+        },
+        {
+          "point": [
+            0.55,
+            0.65
+          ],
+          "reason": "Pocket target sits on lower stair/planter edge, not the open branch floor."
+        }
+      ],
+      "notes": "Broad diagonal pedestrian bridge. Side branch pocket at (.66,.58) reached via steps near (.59,.46). Branch pocket polygon is inset from its low planter walls; the step connector may need a small planter exclusion near (.60,.47)."
+    },
+    {
+      "name": "rooftop-route",
+      "path": "assets/painted/rooftop-route.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: interconnected flat roofs above a partially submerged Rotterdam city. Broad walkable roof platforms connected by WIDE diagonal maintenance walkways. Main route is continuous flat roof floor from lower-left (.22,.62) to upper-right (.78,.30), with wide roof junctions and spacious side rooftop pocket at (.55,.65). No gaps in the intended path. Solar arrays, rooftop gardens, raised ventilation ducts and varied roof heights are confined to outer margins; the center is clear roof paving. Teal submerged city water and distant lower buildings visible around edges below the roof platforms. Warm golden upper-left light, grey and terracotta roof materials, teal infrastructure, original polished hand-painted isometric game quality.",
+      "start": [
+        0.22,
+        0.6
+      ],
+      "exit": [
+        0.78,
+        0.23
+      ],
+      "pocket": [
+        0.61,
+        0.58
+      ],
+      "polygons": [
+        [
+          [
+            0.12,
+            0.6
+          ],
+          [
+            0.79,
+            0.15
+          ],
+          [
+            0.86,
+            0.18
+          ],
+          [
+            0.85,
+            0.23
+          ],
+          [
+            0.21,
+            0.65
+          ],
+          [
+            0.12,
+            0.66
+          ]
+        ],
+        [
+          [
+            0.54,
+            0.43
+          ],
+          [
+            0.6,
+            0.4
+          ],
+          [
+            0.72,
+            0.53
+          ],
+          [
+            0.71,
+            0.59
+          ],
+          [
+            0.62,
+            0.64
+          ],
+          [
+            0.56,
+            0.57
+          ]
+        ],
+        [
+          [
+            0.42,
+            0.46
+          ],
+          [
+            0.47,
+            0.43
+          ],
+          [
+            0.32,
+            0.27
+          ],
+          [
+            0.28,
+            0.3
+          ]
+        ]
+      ],
+      "blockedTargets": [
+        {
+          "point": [
+            0.78,
+            0.3
+          ],
+          "reason": "Exit lies in planted exterior railing."
+        }
+      ],
+      "notes": "Original start and pocket targets are painted floor but close to south edge. Shift inward for sprite clearance. Plants divide main path from lower-right roof; enter branch at (.58,.47)."
+    },
+    {
+      "name": "highway-route",
+      "path": "assets/painted/highway-route.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: abandoned heat-cracked highway interchange. Broad traversable asphalt lanes form a diagonal open route across the scene, with an obvious connected split lane and wide roadside layby around (.55,.65). Two exploratory branches and a main lane continuing toward upper-right. Ruined modern transit shelters, rusting vehicles, collapsed guardrails, solar shade, cooling pipes and dry grass are only at the far edges. Ground has fine shallow cracks and heat weathering but remains continuous and walkable. No central vehicles or wreckage. Dusty orange golden upper-left light, rich ochre and asphalt texture, restrained blue pipe accents. A real route with turnoffs and side pockets, no circular plaza.",
+      "start": [
+        0.22,
+        0.62
+      ],
+      "exit": [
+        0.78,
+        0.3
+      ],
+      "pocket": [
+        0.57,
+        0.59
+      ],
+      "polygons": [
+        [
+          [
+            0.12,
+            0.65
+          ],
+          [
+            0.76,
+            0.2
+          ],
+          [
+            0.86,
+            0.2
+          ],
+          [
+            0.83,
+            0.32
+          ],
+          [
+            0.21,
+            0.74
+          ],
+          [
+            0.12,
+            0.73
+          ]
+        ],
+        [
+          [
+            0.48,
+            0.5
+          ],
+          [
+            0.57,
+            0.44
+          ],
+          [
+            0.69,
+            0.53
+          ],
+          [
+            0.67,
+            0.62
+          ],
+          [
+            0.55,
+            0.64
+          ],
+          [
+            0.5,
+            0.58
+          ]
+        ]
+      ],
+      "blockedTargets": [],
+      "notes": "All requested target centers are clear; pocket (.55,.65) is near low flowered wall, so inward pocket recommended. Reference influence retained teal floodwater around interchange edges; scene is more reclaimed than fully dry desert."
+    },
+    {
+      "name": "forest-route",
+      "path": "assets/painted/forest-route.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: a broad winding forest exploration route through a reclaimed biotech knowledge park. Continuous clear stone and packed-earth trail winds from lower-left (.22,.62) through broad middle paths to upper-right (.78,.30). Two connected branches, including an open mossy stone clearing pocket at (.55,.65). Salt-tolerant lush foliage, ferns, colourful flowers and luminous teal mushrooms hug margins. Crumbled bronze and glass greenhouses at outer edges. Thick tree trunks and tall foliage must NEVER block the central navigable paths. Golden sunlight from upper-left filters through foliage while keeping floor readable; rich smooth hand-painted greenery. The path layout is asymmetrical and winding, no central circle courtyard.",
+      "start": [
+        0.22,
+        0.62
+      ],
+      "exit": [
+        0.74,
+        0.25
+      ],
+      "pocket": [
+        0.55,
+        0.6
+      ],
+      "polygons": [
+        [
+          [
+            0.19,
+            0.59
+          ],
+          [
+            0.68,
+            0.28
+          ],
+          [
+            0.78,
+            0.2
+          ],
+          [
+            0.81,
+            0.21
+          ],
+          [
+            0.77,
+            0.27
+          ],
+          [
+            0.69,
+            0.34
+          ],
+          [
+            0.25,
+            0.66
+          ],
+          [
+            0.19,
+            0.64
+          ]
+        ],
+        [
+          [
+            0.46,
+            0.48
+          ],
+          [
+            0.56,
+            0.46
+          ],
+          [
+            0.64,
+            0.53
+          ],
+          [
+            0.68,
+            0.59
+          ],
+          [
+            0.63,
+            0.64
+          ],
+          [
+            0.52,
+            0.63
+          ],
+          [
+            0.46,
+            0.57
+          ]
+        ],
+        [
+          [
+            0.37,
+            0.48
+          ],
+          [
+            0.42,
+            0.45
+          ],
+          [
+            0.28,
+            0.32
+          ],
+          [
+            0.24,
+            0.34
+          ]
+        ]
+      ],
+      "blockedTargets": [
+        {
+          "point": [
+            0.78,
+            0.3
+          ],
+          "reason": "Exit lands in flowered shrub/rock margin to right of trail."
+        }
+      ],
+      "notes": "Pocket target is bare ground but close to flowerbed edge; (.55,.60) gives better room. Keep rocks and tree trunks outside nav."
+    },
+    {
+      "name": "seed-vault",
+      "path": "assets/painted/seed-vault.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: sheltered underground biosphere seed vault, shown as a beautiful clear open-roof game environment cutaway from the overhead camera. Wide walkable central laboratory corridors, a diagonal main passage, two connected side laboratory chambers. The main clear floor runs from (.22,.62) through the middle to (.78,.30), with a spacious open side chamber around (.55,.65). Glass biotanks, green/teal plant cultivation chambers, brass salvage architecture, seed-storage cabinets and warm laboratory lights only along walls and margins. No tank or wall blocks the prescribed connecting floor routes. Rich luminous teal and green glass, weathered brass, warm overhead lamps and golden light shafts from upper-left. Rectilinear or organic laboratory passages and side chambers, absolutely no generic circular court. Floor junctions broad and obvious.",
+      "start": [
+        0.22,
+        0.62
+      ],
+      "exit": [
+        0.78,
+        0.19
+      ],
+      "pocket": [
+        0.55,
+        0.65
+      ],
+      "polygons": [
+        [
+          [
+            0.14,
+            0.61
+          ],
+          [
+            0.76,
+            0.17
+          ],
+          [
+            0.83,
+            0.19
+          ],
+          [
+            0.83,
+            0.24
+          ],
+          [
+            0.22,
+            0.67
+          ],
+          [
+            0.14,
+            0.65
+          ]
+        ],
+        [
+          [
+            0.5,
+            0.46
+          ],
+          [
+            0.55,
+            0.43
+          ],
+          [
+            0.6,
+            0.56
+          ],
+          [
+            0.57,
+            0.6
+          ]
+        ],
+        [
+          [
+            0.54,
+            0.59
+          ],
+          [
+            0.63,
+            0.53
+          ],
+          [
+            0.74,
+            0.62
+          ],
+          [
+            0.73,
+            0.7
+          ],
+          [
+            0.62,
+            0.76
+          ],
+          [
+            0.53,
+            0.68
+          ]
+        ]
+      ],
+      "blockedTargets": [
+        {
+          "point": [
+            0.78,
+            0.3
+          ],
+          "reason": "Exit lands on cabinet/wall above a water channel."
+        }
+      ],
+      "notes": "Open-roof biosphere cutaway appearance; decorative cabinets around side chamber should be collision walls. Main corridor and pocket floor are clear. Narrow branch entrance can be followed through (.54,.49) to (.58,.58); avoid glass table near (.62,.53)."
+    },
+    {
+      "name": "skybridge-route",
+      "path": "assets/painted/skybridge-route.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: original landscape exploration-level background for the climate action RPG Gouden Horizon, Netherlands in 2089, 1536x1024.\nInput image: STYLE REFERENCE ONLY. Match its rich polished hand-painted 2.5D materials, crisp smooth readable shapes, warm golden upper-left light, lush detail and teal accents. Create an entirely NEW EXPLORATION ROUTE layout; do not copy its circular courtyard geometry.\nCamera: fixed elevated 3/4-overhead tactical game camera, orthographic-like, entire route segment readable. No horizon line.\nNavigation composition: an obvious continuous broad navigable ground route starts at normalized image (.22,.62), travels diagonally through the broad middle to (.78,.30). Both points MUST be unobstructed clear walkable ground, joined by wide continuous visible floor. A clear connected side branch leads into a spacious open pocket at (.55,.65), suitable for later loot and enemies but EMPTY in this artwork. Include another short open side branch. Keep detail and architecture around margins, never across the main route. Ground is visually distinct from water, cliffs, vegetation and void. The route is not a circular arena, not a central plaza, not a ring courtyard.\nConstraints: no UI, interfaces, HUD, text, letters, signs, labels, logos, watermark, creatures, people, characters, enemies or sprites. Original high-quality raster painting, no pixel art. Entire landscape frame filled.\nScene: long broad connected climate-engine maintenance platforms and a wide DIAGONAL suspended skybridge above turbulent North Sea. The skybridge crosses diagonally from the lower-left platform at (.22,.62) through broad middle to upper-right platform at (.78,.30). A connected lower-middle side maintenance platform forms a clear open branch/pocket at (.55,.65). Another short side platform branch. All deck floors wide, clear and connected, with rails strictly at exterior edges and no gaps. Gold and teal climate infrastructure, teal crystal cores, cables, brass supports and machinery only around outer platform margins. Turbulent sea and storm clouds visible ONLY outside walkable paths and platforms, viewed downward without a horizon line. Rich warm golden upper-left light highlights slate deck panels and brass, storm glow around margins. This is a traversable route with branches, not a circular arena.",
+      "start": [
+        0.24,
+        0.57
+      ],
+      "exit": [
+        0.78,
+        0.2
+      ],
+      "pocket": [
+        0.55,
+        0.65
+      ],
+      "polygons": [
+        [
+          [
+            0.16,
+            0.57
+          ],
+          [
+            0.77,
+            0.14
+          ],
+          [
+            0.85,
+            0.15
+          ],
+          [
+            0.84,
+            0.21
+          ],
+          [
+            0.25,
+            0.64
+          ],
+          [
+            0.16,
+            0.64
+          ]
+        ],
+        [
+          [
+            0.46,
+            0.49
+          ],
+          [
+            0.5,
+            0.46
+          ],
+          [
+            0.58,
+            0.56
+          ],
+          [
+            0.54,
+            0.6
+          ]
+        ],
+        [
+          [
+            0.52,
+            0.58
+          ],
+          [
+            0.6,
+            0.57
+          ],
+          [
+            0.69,
+            0.65
+          ],
+          [
+            0.69,
+            0.72
+          ],
+          [
+            0.6,
+            0.76
+          ],
+          [
+            0.53,
+            0.7
+          ]
+        ],
+        [
+          [
+            0.63,
+            0.34
+          ],
+          [
+            0.67,
+            0.32
+          ],
+          [
+            0.82,
+            0.46
+          ],
+          [
+            0.87,
+            0.48
+          ],
+          [
+            0.89,
+            0.52
+          ],
+          [
+            0.84,
+            0.55
+          ],
+          [
+            0.78,
+            0.5
+          ]
+        ]
+      ],
+      "blockedTargets": [
+        {
+          "point": [
+            0.78,
+            0.3
+          ],
+          "reason": "Exit lands on climate pylon below bridge deck, outside floor."
+        }
+      ],
+      "notes": "Original start is clear but close to deck edge, so inward spawn recommended. Central lower maintenance platform is connected and clear."
+    }
+  ],
+  "notes": "Original PNGs were converted to WebP quality 91. Runtime floor unions and marker positions were refined during movement tests; see src/data.js."
+}

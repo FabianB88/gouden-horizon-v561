@@ -1,0 +1,5 @@
+dist/
+node_modules/
+qa/screenshots/
+*.zip
+*.tar.gz

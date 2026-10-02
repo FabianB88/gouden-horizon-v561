@@ -1,0 +1,970 @@
+{
+  "method": "Deterministic alpha-component crops, original RGBA pixels retained, Lanczos resize and transparent atlas packing. No generation or painted edits. Loose mine saved separately and omitted from enemy atlas.",
+  "boundsConvention": "[left,top,right-exclusive,bottom-exclusive]",
+  "atlases": [
+    {
+      "file": "enemy-atlas-packed.png",
+      "grid": [
+        3,
+        2
+      ],
+      "objects": [
+        {
+          "name": "magneetkrab-ready",
+          "row": 1,
+          "column": 1,
+          "sourceBounds": [
+            15,
+            45,
+            550,
+            484
+          ],
+          "sourceSeedBounds": [
+            23,
+            47,
+            543,
+            475
+          ],
+          "cropFile": "magneetkrab-ready.png",
+          "cropDimensions": [
+            559,
+            463
+          ],
+          "contentDimensions": [
+            535,
+            439
+          ],
+          "cellBounds": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "packedRect": [
+            38,
+            76,
+            473,
+            436
+          ],
+          "scale": 0.7775700934579439
+        },
+        {
+          "name": "resonant-ready",
+          "row": 1,
+          "column": 2,
+          "sourceBounds": [
+            597,
+            3,
+            953,
+            499
+          ],
+          "sourceSeedBounds": [
+            609,
+            15,
+            946,
+            491
+          ],
+          "cropFile": "resonant-ready.png",
+          "cropDimensions": [
+            380,
+            520
+          ],
+          "contentDimensions": [
+            356,
+            496
+          ],
+          "cellBounds": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "packedRect": [
+            622,
+            56,
+            914,
+            456
+          ],
+          "scale": 0.7689463955637708
+        },
+        {
+          "name": "pekelbreker-ready",
+          "row": 1,
+          "column": 3,
+          "sourceBounds": [
+            1057,
+            17,
+            1536,
+            484
+          ],
+          "sourceSeedBounds": [
+            1066,
+            26,
+            1528,
+            478
+          ],
+          "cropFile": "pekelbreker-ready.png",
+          "cropDimensions": [
+            503,
+            491
+          ],
+          "contentDimensions": [
+            479,
+            467
+          ],
+          "cellBounds": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "packedRect": [
+            1070,
+            52,
+            1489,
+            461
+          ],
+          "scale": 0.8336673346693386
+        },
+        {
+          "name": "magneetkrab-attack",
+          "row": 2,
+          "column": 1,
+          "sourceBounds": [
+            0,
+            526,
+            520,
+            970
+          ],
+          "sourceSeedBounds": [
+            9,
+            528,
+            509,
+            959
+          ],
+          "cropFile": "magneetkrab-attack.png",
+          "cropDimensions": [
+            544,
+            468
+          ],
+          "contentDimensions": [
+            520,
+            444
+          ],
+          "cellBounds": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "packedRect": [
+            44,
+            586,
+            467,
+            950
+          ],
+          "scale": 0.7775700934579439
+        },
+        {
+          "name": "resonant-attack",
+          "row": 2,
+          "column": 2,
+          "sourceBounds": [
+            545,
+            473,
+            1038,
+            1014
+          ],
+          "sourceSeedBounds": [
+            561,
+            481,
+            1024,
+            1008
+          ],
+          "cropFile": "resonant-attack.png",
+          "cropDimensions": [
+            517,
+            565
+          ],
+          "contentDimensions": [
+            493,
+            541
+          ],
+          "cellBounds": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "packedRect": [
+            569,
+            551,
+            967,
+            985
+          ],
+          "scale": 0.7689463955637708
+        },
+        {
+          "name": "pekelbreker-attack",
+          "row": 2,
+          "column": 3,
+          "sourceBounds": [
+            1037,
+            539,
+            1536,
+            1004
+          ],
+          "sourceSeedBounds": [
+            1042,
+            543,
+            1536,
+            996
+          ],
+          "cropFile": "pekelbreker-attack.png",
+          "cropDimensions": [
+            523,
+            489
+          ],
+          "contentDimensions": [
+            499,
+            465
+          ],
+          "cellBounds": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "packedRect": [
+            1062,
+            564,
+            1498,
+            972
+          ],
+          "scale": 0.8336673346693386
+        },
+        {
+          "name": "magneetkrab-mine",
+          "row": null,
+          "column": null,
+          "sourceBounds": [
+            471,
+            825,
+            578,
+            898
+          ],
+          "sourceSeedBounds": [
+            486,
+            834,
+            565,
+            893
+          ],
+          "cropFile": "magneetkrab-mine.png",
+          "cropDimensions": [
+            131,
+            97
+          ],
+          "contentDimensions": [
+            107,
+            73
+          ]
+        }
+      ],
+      "qa": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 1078213,
+        "sourceAlphaMassRetained": 0.999973,
+        "cells": [
+          {
+            "name": "magneetkrab-ready",
+            "transparentMarginsLeftTopRightBottom": [
+              47,
+              85,
+              48,
+              85
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "resonant-ready",
+            "transparentMarginsLeftTopRightBottom": [
+              119,
+              65,
+              119,
+              65
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "pekelbreker-ready",
+            "transparentMarginsLeftTopRightBottom": [
+              56,
+              62,
+              57,
+              61
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "magneetkrab-attack",
+            "transparentMarginsLeftTopRightBottom": [
+              53,
+              83,
+              54,
+              83
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "resonant-attack",
+            "transparentMarginsLeftTopRightBottom": [
+              66,
+              48,
+              66,
+              48
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "pekelbreker-attack",
+            "transparentMarginsLeftTopRightBottom": [
+              48,
+              62,
+              48,
+              62
+            ],
+            "outer8pxCompletelyTransparent": true
+          }
+        ]
+      }
+    },
+    {
+      "file": "item-atlas-packed.png",
+      "grid": [
+        4,
+        3
+      ],
+      "objects": [
+        {
+          "name": "tidal-fork-staff",
+          "row": 1,
+          "column": 1,
+          "sourceBounds": [
+            27,
+            0,
+            385,
+            368
+          ],
+          "sourceSeedBounds": [
+            30,
+            6,
+            369,
+            359
+          ],
+          "cropFile": "tidal-fork-staff.png",
+          "cropDimensions": [
+            382,
+            392
+          ],
+          "contentDimensions": [
+            358,
+            368
+          ],
+          "cellBounds": [
+            0,
+            0,
+            384,
+            341
+          ],
+          "packedRect": [
+            48,
+            23,
+            336,
+            318
+          ],
+          "scale": 0.7527173913043478
+        },
+        {
+          "name": "amber-prism-focus",
+          "row": 1,
+          "column": 2,
+          "sourceBounds": [
+            435,
+            14,
+            716,
+            364
+          ],
+          "sourceSeedBounds": [
+            440,
+            16,
+            705,
+            358
+          ],
+          "cropFile": "amber-prism-focus.png",
+          "cropDimensions": [
+            305,
+            374
+          ],
+          "contentDimensions": [
+            281,
+            350
+          ],
+          "cellBounds": [
+            384,
+            0,
+            768,
+            341
+          ],
+          "packedRect": [
+            456,
+            22,
+            697,
+            318
+          ],
+          "scale": 0.7914285714285715
+        },
+        {
+          "name": "cobalt-coat",
+          "row": 1,
+          "column": 3,
+          "sourceBounds": [
+            801,
+            1,
+            1136,
+            375
+          ],
+          "sourceSeedBounds": [
+            808,
+            12,
+            1134,
+            367
+          ],
+          "cropFile": "cobalt-coat.png",
+          "cropDimensions": [
+            359,
+            398
+          ],
+          "contentDimensions": [
+            335,
+            374
+          ],
+          "cellBounds": [
+            768,
+            0,
+            1152,
+            341
+          ],
+          "packedRect": [
+            827,
+            23,
+            1093,
+            318
+          ],
+          "scale": 0.7406417112299465
+        },
+        {
+          "name": "brass-shield-jacket",
+          "row": 1,
+          "column": 4,
+          "sourceBounds": [
+            1182,
+            8,
+            1513,
+            368
+          ],
+          "sourceSeedBounds": [
+            1185,
+            13,
+            1509,
+            361
+          ],
+          "cropFile": "brass-shield-jacket.png",
+          "cropDimensions": [
+            355,
+            384
+          ],
+          "contentDimensions": [
+            331,
+            360
+          ],
+          "cellBounds": [
+            1152,
+            0,
+            1536,
+            341
+          ],
+          "packedRect": [
+            1208,
+            23,
+            1481,
+            318
+          ],
+          "scale": 0.7694444444444445
+        },
+        {
+          "name": "astrolabe-relic",
+          "row": 2,
+          "column": 1,
+          "sourceBounds": [
+            21,
+            351,
+            368,
+            706
+          ],
+          "sourceSeedBounds": [
+            27,
+            355,
+            364,
+            698
+          ],
+          "cropFile": "astrolabe-relic.png",
+          "cropDimensions": [
+            371,
+            379
+          ],
+          "contentDimensions": [
+            347,
+            355
+          ],
+          "cellBounds": [
+            0,
+            341,
+            384,
+            683
+          ],
+          "packedRect": [
+            48,
+            364,
+            337,
+            660
+          ],
+          "scale": 0.780281690140845
+        },
+        {
+          "name": "seed-heart-relic",
+          "row": 2,
+          "column": 2,
+          "sourceBounds": [
+            449,
+            351,
+            734,
+            708
+          ],
+          "sourceSeedBounds": [
+            451,
+            353,
+            727,
+            698
+          ],
+          "cropFile": "seed-heart-relic.png",
+          "cropDimensions": [
+            309,
+            381
+          ],
+          "contentDimensions": [
+            285,
+            357
+          ],
+          "cellBounds": [
+            384,
+            341,
+            768,
+            683
+          ],
+          "packedRect": [
+            456,
+            364,
+            696,
+            660
+          ],
+          "scale": 0.7759103641456583
+        },
+        {
+          "name": "quickstep-boots",
+          "row": 2,
+          "column": 3,
+          "sourceBounds": [
+            809,
+            367,
+            1155,
+            696
+          ],
+          "sourceSeedBounds": [
+            811,
+            371,
+            1150,
+            691
+          ],
+          "cropFile": "quickstep-boots.png",
+          "cropDimensions": [
+            370,
+            353
+          ],
+          "contentDimensions": [
+            346,
+            329
+          ],
+          "cellBounds": [
+            768,
+            341,
+            1152,
+            683
+          ],
+          "packedRect": [
+            804,
+            364,
+            1116,
+            661
+          ],
+          "scale": 0.8419452887537994
+        },
+        {
+          "name": "ashproof-boots",
+          "row": 2,
+          "column": 4,
+          "sourceBounds": [
+            1197,
+            377,
+            1520,
+            689
+          ],
+          "sourceSeedBounds": [
+            1200,
+            380,
+            1517,
+            687
+          ],
+          "cropFile": "ashproof-boots.png",
+          "cropDimensions": [
+            347,
+            336
+          ],
+          "contentDimensions": [
+            323,
+            312
+          ],
+          "cellBounds": [
+            1152,
+            341,
+            1536,
+            683
+          ],
+          "packedRect": [
+            1190,
+            363,
+            1498,
+            661
+          ],
+          "scale": 0.8878205128205128
+        },
+        {
+          "name": "conductor-gauntlets",
+          "row": 3,
+          "column": 1,
+          "sourceBounds": [
+            17,
+            689,
+            372,
+            996
+          ],
+          "sourceSeedBounds": [
+            [
+              23,
+              702,
+              207,
+              986
+            ],
+            [
+              169,
+              705,
+              368,
+              993
+            ]
+          ],
+          "cropFile": "conductor-gauntlets.png",
+          "cropDimensions": [
+            379,
+            331
+          ],
+          "contentDimensions": [
+            355,
+            307
+          ],
+          "cellBounds": [
+            0,
+            683,
+            384,
+            1024
+          ],
+          "packedRect": [
+            21,
+            704,
+            363,
+            1002
+          ],
+          "scale": 0.9014084507042254
+        },
+        {
+          "name": "thornweave-gloves",
+          "row": 3,
+          "column": 2,
+          "sourceBounds": [
+            401,
+            687,
+            755,
+            1004
+          ],
+          "sourceSeedBounds": [
+            410,
+            695,
+            748,
+            997
+          ],
+          "cropFile": "thornweave-gloves.png",
+          "cropDimensions": [
+            378,
+            341
+          ],
+          "contentDimensions": [
+            354,
+            317
+          ],
+          "cellBounds": [
+            384,
+            683,
+            768,
+            1024
+          ],
+          "packedRect": [
+            411,
+            704,
+            741,
+            1002
+          ],
+          "scale": 0.8738170347003155
+        },
+        {
+          "name": "condenser-belt",
+          "row": 3,
+          "column": 3,
+          "sourceBounds": [
+            781,
+            714,
+            1139,
+            1002
+          ],
+          "sourceSeedBounds": [
+            786,
+            718,
+            1135,
+            996
+          ],
+          "cropFile": "condenser-belt.png",
+          "cropDimensions": [
+            382,
+            312
+          ],
+          "contentDimensions": [
+            358,
+            288
+          ],
+          "cellBounds": [
+            768,
+            683,
+            1152,
+            1024
+          ],
+          "packedRect": [
+            790,
+            714,
+            1131,
+            993
+          ],
+          "scale": 0.8938547486033519
+        },
+        {
+          "name": "medtech-belt",
+          "row": 3,
+          "column": 4,
+          "sourceBounds": [
+            1162,
+            721,
+            1523,
+            978
+          ],
+          "sourceSeedBounds": [
+            1166,
+            731,
+            1520,
+            969
+          ],
+          "cropFile": "medtech-belt.png",
+          "cropDimensions": [
+            385,
+            281
+          ],
+          "contentDimensions": [
+            361,
+            257
+          ],
+          "cellBounds": [
+            1152,
+            683,
+            1536,
+            1024
+          ],
+          "packedRect": [
+            1174,
+            729,
+            1515,
+            978
+          ],
+          "scale": 0.8864265927977839
+        }
+      ],
+      "qa": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 1005264,
+        "sourceAlphaMassRetained": 0.999998,
+        "cells": [
+          {
+            "name": "tidal-fork-staff",
+            "transparentMarginsLeftTopRightBottom": [
+              57,
+              32,
+              57,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "amber-prism-focus",
+            "transparentMarginsLeftTopRightBottom": [
+              81,
+              31,
+              80,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "cobalt-coat",
+            "transparentMarginsLeftTopRightBottom": [
+              68,
+              32,
+              67,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "brass-shield-jacket",
+            "transparentMarginsLeftTopRightBottom": [
+              65,
+              32,
+              64,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "astrolabe-relic",
+            "transparentMarginsLeftTopRightBottom": [
+              57,
+              32,
+              56,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "seed-heart-relic",
+            "transparentMarginsLeftTopRightBottom": [
+              81,
+              32,
+              81,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "quickstep-boots",
+            "transparentMarginsLeftTopRightBottom": [
+              46,
+              33,
+              46,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "ashproof-boots",
+            "transparentMarginsLeftTopRightBottom": [
+              49,
+              33,
+              49,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "conductor-gauntlets",
+            "transparentMarginsLeftTopRightBottom": [
+              32,
+              32,
+              32,
+              33
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "thornweave-gloves",
+            "transparentMarginsLeftTopRightBottom": [
+              37,
+              31,
+              37,
+              32
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "condenser-belt",
+            "transparentMarginsLeftTopRightBottom": [
+              33,
+              42,
+              32,
+              42
+            ],
+            "outer8pxCompletelyTransparent": true
+          },
+          {
+            "name": "medtech-belt",
+            "transparentMarginsLeftTopRightBottom": [
+              33,
+              57,
+              31,
+              57
+            ],
+            "outer8pxCompletelyTransparent": true
+          }
+        ]
+      }
+    }
+  ]
+}

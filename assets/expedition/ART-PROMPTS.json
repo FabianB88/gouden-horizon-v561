@@ -1,0 +1,1577 @@
+{
+  "version": 1,
+  "tool": "built-in image_gen__imagegen",
+  "generation_count": 4,
+  "retries": 0,
+  "method": "Original generations, followed only by deterministic crop, resampling and transparent padding. No painted pixels or alpha are manually changed.",
+  "assets": [
+    {
+      "id": "travel-camp-atlas",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "columns": 3,
+      "rows": 2,
+      "objects": [
+        {
+          "name": "brass_transit_gate",
+          "source_crop": [
+            20,
+            20,
+            510,
+            480
+          ],
+          "source_foot_anchor": [
+            275,
+            461
+          ],
+          "index": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "safe_crop": [
+            77,
+            87,
+            358,
+            337
+          ],
+          "foot_anchor": [
+            256.0,
+            396.62
+          ],
+          "foot_anchor_in_crop": [
+            179.0,
+            309.62
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.9187
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            3,
+            8,
+            358,
+            337
+          ],
+          "resampled_dimensions": [
+            358,
+            337
+          ]
+        },
+        {
+          "name": "overgrown_gate",
+          "source_crop": [
+            520,
+            14,
+            510,
+            487
+          ],
+          "source_foot_anchor": [
+            777,
+            462
+          ],
+          "index": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "safe_crop": [
+            589,
+            85,
+            358,
+            342
+          ],
+          "foot_anchor": [
+            769.4,
+            399.61
+          ],
+          "foot_anchor_in_crop": [
+            180.4,
+            314.61
+          ],
+          "foot_anchor_normalized": [
+            0.5039,
+            0.9199
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            1,
+            5,
+            358,
+            342
+          ],
+          "resampled_dimensions": [
+            358,
+            342
+          ]
+        },
+        {
+          "name": "industrial_gate",
+          "source_crop": [
+            1030,
+            6,
+            496,
+            491
+          ],
+          "source_foot_anchor": [
+            1286,
+            464
+          ],
+          "index": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "safe_crop": [
+            1101,
+            79,
+            358,
+            354
+          ],
+          "foot_anchor": [
+            1285.77,
+            409.21
+          ],
+          "foot_anchor_in_crop": [
+            184.77,
+            330.21
+          ],
+          "foot_anchor_normalized": [
+            0.5161,
+            0.9328
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            1,
+            6,
+            355,
+            349
+          ],
+          "resampled_dimensions": [
+            358,
+            354
+          ]
+        },
+        {
+          "name": "maritime_doorway",
+          "source_crop": [
+            75,
+            511,
+            405,
+            487
+          ],
+          "source_foot_anchor": [
+            281,
+            958
+          ],
+          "index": 3,
+          "cell": [
+            0,
+            1
+          ],
+          "safe_crop": [
+            107,
+            589,
+            298,
+            358
+          ],
+          "foot_anchor": [
+            258.58,
+            917.6
+          ],
+          "foot_anchor_in_crop": [
+            151.58,
+            328.6
+          ],
+          "foot_anchor_normalized": [
+            0.5086,
+            0.9179
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            10,
+            0,
+            298,
+            354
+          ],
+          "resampled_dimensions": [
+            298,
+            358
+          ]
+        },
+        {
+          "name": "trade_stall",
+          "source_crop": [
+            495,
+            500,
+            550,
+            490
+          ],
+          "source_foot_anchor": [
+            775,
+            944
+          ],
+          "index": 4,
+          "cell": [
+            1,
+            1
+          ],
+          "safe_crop": [
+            589,
+            608,
+            358,
+            319
+          ],
+          "foot_anchor": [
+            771.25,
+            897.05
+          ],
+          "foot_anchor_in_crop": [
+            182.25,
+            289.05
+          ],
+          "foot_anchor_normalized": [
+            0.5091,
+            0.9061
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            356,
+            319
+          ],
+          "resampled_dimensions": [
+            358,
+            319
+          ]
+        },
+        {
+          "name": "forge_workbench",
+          "source_crop": [
+            1048,
+            496,
+            480,
+            494
+          ],
+          "source_foot_anchor": [
+            1288,
+            946
+          ],
+          "index": 5,
+          "cell": [
+            2,
+            1
+          ],
+          "safe_crop": [
+            1106,
+            589,
+            348,
+            358
+          ],
+          "foot_anchor": [
+            1280.0,
+            915.11
+          ],
+          "foot_anchor_in_crop": [
+            174.0,
+            326.11
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.9109
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            1,
+            1,
+            341,
+            354
+          ],
+          "resampled_dimensions": [
+            348,
+            358
+          ]
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Original game sprites for Gouden Horizon, a climate-action RPG set in postapocalyptic Netherlands 2089. Smooth polished hand-painted fantasy action-RPG art inspired by Torchlight: full readable volumes, brass, teal, weathered salvage, warm upper-left key light and soft cool fill. Broad sculptural painterly forms, detailed tangible salvaged materials, clear silhouettes. No pixel art, no vector art, no photorealism. Genuine transparent RGBA background, including transparent negative space between sprites. No backdrop, no scenery beyond the explicitly requested object, no ground tile, no text, no labels, no grid lines, no watermark. Each entire sprite including held weapons, shadows and glow fits well within its own cell's central 70 percent, leaving generous transparent margins all around. No part crosses any cell boundary.\nAsset type: production game travel/camp sprite atlas. EXACTLY 1536 by 1024 pixels, a strict invisible 3-column by 2-row grid of 512 by 512 cells. Six distinct isolated sprite groups with evenly spaced cell centers: (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768). Elevated three-quarter game camera, consistent perspective.\nRow 1 left: weathered brass-and-wood low transit gate, small cyan lamp, modest gate height about 1.4 humans, open traversable center, practical Dutch floodland salvage architecture.\nRow 1 middle: overgrown stone-and-bronze gate, small green lamp, modest human-scale open traversable center.\nRow 1 right: industrial salvaged-metal gate, small amber lamp, modest human-scale open traversable center.\nRow 2 left: slim maritime doorway/frame with teal light, modest human-scale open traversable center.\nRow 2 middle: safe camp trade stall, small warm canvas awning, crates and brass tools, a friendly female trader standing directly beside this small stall. She belongs to the stall sprite group and is fully contained in that cell.\nRow 2 right: compact salvaged forge workbench with a warm furnace and a warm crystal.\nAll gates are real doorway structures with low construction and passable open centers, never magical circular portals. Tiny contained contact shadows, all lamps/glow restrained to each cell. Complete objects, no cropping.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_alpha_extrema": [
+        0,
+        254
+      ],
+      "source_fully_transparent_percent": 50.752,
+      "cell_dimensions": [
+        512,
+        512
+      ],
+      "final_alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_percent": 75.946,
+      "verified_object_order": true,
+      "verified_central_70_percent": true
+    },
+    {
+      "id": "enemy-atlas",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "columns": 3,
+      "rows": 2,
+      "objects": [
+        {
+          "name": "scarab_scavenger",
+          "source_crop": [
+            15,
+            40,
+            500,
+            439
+          ],
+          "source_foot_anchor": [
+            263,
+            438
+          ],
+          "index": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "safe_crop": [
+            77,
+            99,
+            358,
+            314
+          ],
+          "foot_anchor": [
+            254.57,
+            383.67
+          ],
+          "foot_anchor_in_crop": [
+            177.57,
+            284.67
+          ],
+          "foot_anchor_normalized": [
+            0.496,
+            0.9066
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            358,
+            314
+          ],
+          "resampled_dimensions": [
+            358,
+            314
+          ]
+        },
+        {
+          "name": "ash_sniper",
+          "source_crop": [
+            535,
+            12,
+            490,
+            472
+          ],
+          "source_foot_anchor": [
+            783,
+            467
+          ],
+          "index": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "safe_crop": [
+            589,
+            83,
+            358,
+            345
+          ],
+          "foot_anchor": [
+            770.19,
+            415.57
+          ],
+          "foot_anchor_in_crop": [
+            181.19,
+            332.57
+          ],
+          "foot_anchor_normalized": [
+            0.5061,
+            0.964
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            1,
+            358,
+            345
+          ],
+          "resampled_dimensions": [
+            358,
+            345
+          ]
+        },
+        {
+          "name": "heat_shield_sentinel",
+          "source_crop": [
+            1025,
+            8,
+            495,
+            467
+          ],
+          "source_foot_anchor": [
+            1290,
+            458
+          ],
+          "index": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "safe_crop": [
+            1101,
+            87,
+            358,
+            338
+          ],
+          "foot_anchor": [
+            1292.66,
+            412.7
+          ],
+          "foot_anchor_in_crop": [
+            191.66,
+            325.7
+          ],
+          "foot_anchor_normalized": [
+            0.5354,
+            0.9636
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            5,
+            358,
+            338
+          ],
+          "resampled_dimensions": [
+            358,
+            338
+          ]
+        },
+        {
+          "name": "spore_caster",
+          "source_crop": [
+            54,
+            480,
+            444,
+            528
+          ],
+          "source_foot_anchor": [
+            245,
+            973
+          ],
+          "index": 3,
+          "cell": [
+            0,
+            1
+          ],
+          "safe_crop": [
+            105,
+            589,
+            301,
+            358
+          ],
+          "foot_anchor": [
+            234.48,
+            923.27
+          ],
+          "foot_anchor_in_crop": [
+            129.48,
+            334.27
+          ],
+          "foot_anchor_normalized": [
+            0.4302,
+            0.9337
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            301,
+            358
+          ],
+          "resampled_dimensions": [
+            301,
+            358
+          ]
+        },
+        {
+          "name": "storm_jelly",
+          "source_crop": [
+            522,
+            482,
+            500,
+            526
+          ],
+          "source_foot_anchor": [
+            771,
+            983
+          ],
+          "anchor_kind": "hover_base",
+          "index": 4,
+          "cell": [
+            1,
+            1
+          ],
+          "safe_crop": [
+            598,
+            589,
+            340,
+            358
+          ],
+          "foot_anchor": [
+            767.32,
+            929.98
+          ],
+          "foot_anchor_in_crop": [
+            169.32,
+            340.98
+          ],
+          "foot_anchor_normalized": [
+            0.498,
+            0.9525
+          ],
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            340,
+            358
+          ],
+          "resampled_dimensions": [
+            340,
+            358
+          ]
+        },
+        {
+          "name": "siege_guardian",
+          "source_crop": [
+            1028,
+            474,
+            500,
+            537
+          ],
+          "source_foot_anchor": [
+            1287,
+            985
+          ],
+          "index": 5,
+          "cell": [
+            2,
+            1
+          ],
+          "safe_crop": [
+            1113,
+            589,
+            333,
+            358
+          ],
+          "foot_anchor": [
+            1285.49,
+            929.67
+          ],
+          "foot_anchor_in_crop": [
+            172.49,
+            340.67
+          ],
+          "foot_anchor_normalized": [
+            0.518,
+            0.9516
+          ],
+          "anchor_kind": "feet_base",
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            333,
+            358
+          ],
+          "resampled_dimensions": [
+            333,
+            358
+          ]
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Original game sprites for Gouden Horizon, a climate-action RPG set in postapocalyptic Netherlands 2089. Smooth polished hand-painted fantasy action-RPG art inspired by Torchlight: full readable volumes, brass, teal, weathered salvage, warm upper-left key light and soft cool fill. Broad sculptural painterly forms, detailed tangible salvaged materials, clear silhouettes. No pixel art, no vector art, no photorealism. Genuine transparent RGBA background, including transparent negative space between sprites. No backdrop, no scenery beyond the explicitly requested object, no ground tile, no text, no labels, no grid lines, no watermark. Each entire sprite including held weapons, shadows and glow fits well within its own cell's central 70 percent, leaving generous transparent margins all around. No part crosses any cell boundary.\nAsset type: production enemy sprite atlas. EXACTLY 1536 by 1024 pixels, strict invisible 3-column by 2-row grid of 512 by 512 cells. Six distinct complete isolated figures centered at (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768). Elevated three-quarter game camera, consistent viewpoint. Each figure's held weapon is visibly in its hands; no separate detached weapons. Six strongly different silhouettes.\nRow 1 left: rust-red scarab scavenger robot, very low wide crawling beetle form, scavenged mechanical shell and legs.\nRow 1 middle: tall lean ash sniper human in a practical respirator and weathered coat, holding a scoped scrap crossbow.\nRow 1 right: bulky brass heat-shield sentinel with a large held shield and held hammer, heavily armored broad silhouette.\nRow 2 left: pale bioluminescent spore caster with a large flowering backpack, slim organic body, glowing green-white spores.\nRow 2 middle: violet hovering storm jelly/drone with many hanging tendrils, floating body, violet contained energy.\nRow 2 right: gold-and-teal hydraulic siege guardian walker, chunky three-legged mechanical body.\nOriginal designs, no duplicated silhouette. Entire figures and all extremities in the central70% of each cell. Tiny contained ground/contact shadows on transparency, no ground tile.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_alpha_extrema": [
+        0,
+        254
+      ],
+      "source_fully_transparent_percent": 38.425,
+      "cell_dimensions": [
+        512,
+        512
+      ],
+      "final_alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_percent": 70.52,
+      "verified_object_order": true,
+      "verified_central_70_percent": true
+    },
+    {
+      "id": "ability-atlas",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "columns": 3,
+      "rows": 2,
+      "objects": [
+        {
+          "name": "frost_circle",
+          "source_crop": [
+            12,
+            64,
+            490,
+            439
+          ],
+          "source_foot_anchor": [
+            262,
+            401
+          ],
+          "anchor_kind": "ground_ring_center",
+          "index": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "safe_crop": [
+            77,
+            95,
+            358,
+            321
+          ],
+          "foot_anchor": [
+            259.65,
+            341.42
+          ],
+          "foot_anchor_in_crop": [
+            182.65,
+            246.42
+          ],
+          "foot_anchor_normalized": [
+            0.5102,
+            0.7677
+          ],
+          "alpha_bbox_in_crop": [
+            1,
+            0,
+            358,
+            321
+          ],
+          "resampled_dimensions": [
+            358,
+            321
+          ]
+        },
+        {
+          "name": "mint_cyclone",
+          "source_crop": [
+            530,
+            15,
+            478,
+            490
+          ],
+          "source_foot_anchor": [
+            766,
+            448
+          ],
+          "anchor_kind": "ground_ring_center",
+          "index": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "safe_crop": [
+            593,
+            77,
+            349,
+            358
+          ],
+          "foot_anchor": [
+            765.31,
+            393.36
+          ],
+          "foot_anchor_in_crop": [
+            172.31,
+            316.36
+          ],
+          "foot_anchor_normalized": [
+            0.4937,
+            0.8837
+          ],
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            349,
+            358
+          ],
+          "resampled_dimensions": [
+            349,
+            358
+          ]
+        },
+        {
+          "name": "lightning_storm",
+          "source_crop": [
+            1038,
+            16,
+            484,
+            484
+          ],
+          "source_foot_anchor": [
+            1280,
+            432
+          ],
+          "anchor_kind": "ground_ring_center",
+          "index": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "safe_crop": [
+            1101,
+            77,
+            358,
+            358
+          ],
+          "foot_anchor": [
+            1280.0,
+            384.7
+          ],
+          "foot_anchor_in_crop": [
+            179.0,
+            307.7
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.8595
+          ],
+          "alpha_bbox_in_crop": [
+            1,
+            2,
+            358,
+            358
+          ],
+          "resampled_dimensions": [
+            358,
+            358
+          ]
+        },
+        {
+          "name": "orbital_sun_strikes",
+          "source_crop": [
+            8,
+            510,
+            493,
+            500
+          ],
+          "source_foot_anchor": [
+            255,
+            886
+          ],
+          "anchor_kind": "ground_ring_center",
+          "index": 3,
+          "cell": [
+            0,
+            1
+          ],
+          "safe_crop": [
+            79,
+            589,
+            353,
+            358
+          ],
+          "foot_anchor": [
+            255.86,
+            858.22
+          ],
+          "foot_anchor_in_crop": [
+            176.86,
+            269.22
+          ],
+          "foot_anchor_normalized": [
+            0.501,
+            0.752
+          ],
+          "alpha_bbox_in_crop": [
+            2,
+            0,
+            353,
+            355
+          ],
+          "resampled_dimensions": [
+            353,
+            358
+          ]
+        },
+        {
+          "name": "aurelia_core",
+          "source_crop": [
+            526,
+            516,
+            492,
+            490
+          ],
+          "source_foot_anchor": [
+            771,
+            964
+          ],
+          "anchor_kind": "hover_base",
+          "index": 4,
+          "cell": [
+            1,
+            1
+          ],
+          "safe_crop": [
+            589,
+            589,
+            358,
+            357
+          ],
+          "foot_anchor": [
+            767.27,
+            915.4
+          ],
+          "foot_anchor_in_crop": [
+            178.27,
+            326.4
+          ],
+          "foot_anchor_normalized": [
+            0.498,
+            0.9143
+          ],
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            358,
+            354
+          ],
+          "resampled_dimensions": [
+            358,
+            357
+          ]
+        },
+        {
+          "name": "golden_shockwave",
+          "source_crop": [
+            1024,
+            555,
+            504,
+            452
+          ],
+          "source_foot_anchor": [
+            1275,
+            827
+          ],
+          "anchor_kind": "ground_ring_center",
+          "index": 5,
+          "cell": [
+            2,
+            1
+          ],
+          "safe_crop": [
+            1101,
+            607,
+            358,
+            321
+          ],
+          "foot_anchor": [
+            1279.29,
+            800.17
+          ],
+          "foot_anchor_in_crop": [
+            178.29,
+            193.17
+          ],
+          "foot_anchor_normalized": [
+            0.498,
+            0.6018
+          ],
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            358,
+            320
+          ],
+          "resampled_dimensions": [
+            358,
+            321
+          ]
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Original game sprites for Gouden Horizon, a climate-action RPG set in postapocalyptic Netherlands 2089. Smooth polished hand-painted fantasy action-RPG art inspired by Torchlight: full readable volumes, brass, teal, weathered salvage, warm upper-left key light and soft cool fill. Broad sculptural painterly forms, detailed tangible salvaged materials, clear silhouettes. No pixel art, no vector art, no photorealism. Genuine transparent RGBA background, including transparent negative space between sprites. No backdrop, no scenery beyond the explicitly requested object, no ground tile, no text, no labels, no grid lines, no watermark. Each entire sprite including held weapons, shadows and glow fits well within its own cell's central 70 percent, leaving generous transparent margins all around. No part crosses any cell boundary.\nAsset type: production ability/effect icon atlas. EXACTLY 1536 by 1024 pixels, strict invisible 3-column by 2-row grid of 512 by 512 cells. Six isolated complete icons, centered at (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768). Smooth painted magical volumes with dimensional forms; restrained glows completely inside central70% of each cell. No characters. Every icon independently isolated on genuine transparent background.\nRow 1 left: frost ground circle with a crown of rising ice crystals, luminous icy blue and teal.\nRow 1 middle: swirling cyclone of pale mint wind, distinct vertical twisting airy form.\nRow 1 right: purple lightning storm cloud with bolts falling downward into a ground ring.\nRow 2 left: amber orbital sun strikes bombarding a small ground ring, several solar streaks dropping from above.\nRow 2 middle: luminous golden Aurelia energy core surrounded by cyan, purple and amber orbiting rings, substantial bright polished gold center.\nRow 2 right: stylized golden shockwave of expanding rings, ultimate impact, low wide concentric radiant volumes.\nNo UI plate, no square backdrop, no icon border, no text. Each icon reads clearly at 64px.",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "source_alpha_extrema": [
+        0,
+        253
+      ],
+      "source_fully_transparent_percent": 34.25,
+      "cell_dimensions": [
+        512,
+        512
+      ],
+      "final_alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_percent": 65.58,
+      "verified_object_order": true,
+      "verified_central_70_percent": true
+    },
+    {
+      "id": "equipment-atlas",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "columns": 4,
+      "rows": 3,
+      "objects": [
+        {
+          "name": "salvaged_focus_rod",
+          "source_crop": [
+            42,
+            35,
+            227,
+            407
+          ],
+          "source_foot_anchor": [
+            177,
+            430
+          ],
+          "slot": "focus",
+          "tier": "common",
+          "index": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "safe_crop": [
+            92,
+            77,
+            200,
+            358
+          ],
+          "foot_anchor": [
+            210.94,
+            424.44
+          ],
+          "foot_anchor_in_crop": [
+            118.94,
+            347.44
+          ],
+          "foot_anchor_normalized": [
+            0.5947,
+            0.9705
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            6,
+            9,
+            200,
+            353
+          ],
+          "resampled_dimensions": [
+            200,
+            358
+          ]
+        },
+        {
+          "name": "navy_utility_coat",
+          "source_crop": [
+            302,
+            44,
+            336,
+            396
+          ],
+          "source_foot_anchor": [
+            470,
+            418
+          ],
+          "slot": "coat",
+          "tier": "common",
+          "index": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "safe_crop": [
+            442,
+            98,
+            268,
+            316
+          ],
+          "foot_anchor": [
+            576.0,
+            396.44
+          ],
+          "foot_anchor_in_crop": [
+            134.0,
+            298.44
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.9444
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            0,
+            7,
+            268,
+            305
+          ],
+          "resampled_dimensions": [
+            268,
+            316
+          ]
+        },
+        {
+          "name": "grey_field_compass",
+          "source_crop": [
+            646,
+            91,
+            302,
+            310
+          ],
+          "source_foot_anchor": [
+            794,
+            383
+          ],
+          "slot": "relic",
+          "tier": "common",
+          "index": 2,
+          "cell": [
+            2,
+            0
+          ],
+          "safe_crop": [
+            826,
+            118,
+            268,
+            275
+          ],
+          "foot_anchor": [
+            957.34,
+            377.03
+          ],
+          "foot_anchor_in_crop": [
+            131.34,
+            259.03
+          ],
+          "foot_anchor_normalized": [
+            0.4901,
+            0.9419
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            11,
+            0,
+            260,
+            267
+          ],
+          "resampled_dimensions": [
+            268,
+            275
+          ]
+        },
+        {
+          "name": "green_fork_focus",
+          "source_crop": [
+            974,
+            43,
+            258,
+            402
+          ],
+          "source_foot_anchor": [
+            1098,
+            428
+          ],
+          "slot": "focus",
+          "tier": "uncommon",
+          "index": 3,
+          "cell": [
+            3,
+            0
+          ],
+          "safe_crop": [
+            1229,
+            77,
+            230,
+            358
+          ],
+          "foot_anchor": [
+            1339.54,
+            419.86
+          ],
+          "foot_anchor_in_crop": [
+            110.54,
+            342.86
+          ],
+          "foot_anchor_normalized": [
+            0.4806,
+            0.9577
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            0,
+            0,
+            225,
+            352
+          ],
+          "resampled_dimensions": [
+            230,
+            358
+          ]
+        },
+        {
+          "name": "plum_teal_ranger_jacket",
+          "source_crop": [
+            3,
+            450,
+            331,
+            379
+          ],
+          "source_foot_anchor": [
+            163,
+            807
+          ],
+          "slot": "coat",
+          "tier": "uncommon",
+          "index": 4,
+          "cell": [
+            0,
+            1
+          ],
+          "safe_crop": [
+            58,
+            614,
+            268,
+            307
+          ],
+          "foot_anchor": [
+            187.55,
+            903.18
+          ],
+          "foot_anchor_in_crop": [
+            129.55,
+            289.18
+          ],
+          "foot_anchor_normalized": [
+            0.4834,
+            0.942
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            10,
+            1,
+            266,
+            306
+          ],
+          "resampled_dimensions": [
+            268,
+            307
+          ]
+        },
+        {
+          "name": "golden_sun_compass",
+          "source_crop": [
+            335,
+            464,
+            293,
+            342
+          ],
+          "source_foot_anchor": [
+            481,
+            788
+          ],
+          "slot": "relic",
+          "tier": "uncommon",
+          "index": 5,
+          "cell": [
+            1,
+            1
+          ],
+          "safe_crop": [
+            442,
+            611,
+            268,
+            313
+          ],
+          "foot_anchor": [
+            575.54,
+            907.53
+          ],
+          "foot_anchor_in_crop": [
+            133.54,
+            296.53
+          ],
+          "foot_anchor_normalized": [
+            0.4983,
+            0.9474
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            4,
+            14,
+            267,
+            299
+          ],
+          "resampled_dimensions": [
+            268,
+            313
+          ]
+        },
+        {
+          "name": "brown_field_boots",
+          "source_crop": [
+            628,
+            483,
+            307,
+            338
+          ],
+          "source_foot_anchor": [
+            782,
+            791
+          ],
+          "slot": "boots",
+          "tier": "common",
+          "index": 6,
+          "cell": [
+            2,
+            1
+          ],
+          "safe_crop": [
+            826,
+            620,
+            268,
+            295
+          ],
+          "foot_anchor": [
+            960.44,
+            888.82
+          ],
+          "foot_anchor_in_crop": [
+            134.44,
+            268.82
+          ],
+          "foot_anchor_normalized": [
+            0.5016,
+            0.9112
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            0,
+            2,
+            266,
+            281
+          ],
+          "resampled_dimensions": [
+            268,
+            295
+          ]
+        },
+        {
+          "name": "brown_work_gloves",
+          "source_crop": [
+            943,
+            512,
+            302,
+            283
+          ],
+          "source_foot_anchor": [
+            1094,
+            769
+          ],
+          "slot": "gloves",
+          "tier": "common",
+          "index": 7,
+          "cell": [
+            3,
+            1
+          ],
+          "safe_crop": [
+            1210,
+            642,
+            268,
+            251
+          ],
+          "foot_anchor": [
+            1344.0,
+            869.94
+          ],
+          "foot_anchor_in_crop": [
+            134.0,
+            227.94
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.9081
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            2,
+            0,
+            264,
+            240
+          ],
+          "resampled_dimensions": [
+            268,
+            251
+          ]
+        },
+        {
+          "name": "salvage_utility_belt",
+          "source_crop": [
+            9,
+            908,
+            327,
+            237
+          ],
+          "source_foot_anchor": [
+            172,
+            1115
+          ],
+          "slot": "belt",
+          "tier": "common",
+          "index": 8,
+          "cell": [
+            0,
+            2
+          ],
+          "safe_crop": [
+            58,
+            1183,
+            268,
+            194
+          ],
+          "foot_anchor": [
+            191.59,
+            1352.44
+          ],
+          "foot_anchor_in_crop": [
+            133.59,
+            169.44
+          ],
+          "foot_anchor_normalized": [
+            0.4985,
+            0.8734
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            8,
+            6,
+            268,
+            194
+          ],
+          "resampled_dimensions": [
+            268,
+            194
+          ]
+        },
+        {
+          "name": "teal_gold_travel_boots",
+          "source_crop": [
+            340,
+            842,
+            290,
+            332
+          ],
+          "source_foot_anchor": [
+            483,
+            1155
+          ],
+          "slot": "boots",
+          "tier": "uncommon",
+          "index": 9,
+          "cell": [
+            1,
+            2
+          ],
+          "safe_crop": [
+            442,
+            1126,
+            268,
+            307
+          ],
+          "foot_anchor": [
+            574.15,
+            1415.43
+          ],
+          "foot_anchor_in_crop": [
+            132.15,
+            289.43
+          ],
+          "foot_anchor_normalized": [
+            0.4931,
+            0.9428
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            1,
+            6,
+            266,
+            307
+          ],
+          "resampled_dimensions": [
+            268,
+            307
+          ]
+        },
+        {
+          "name": "copper_teal_storm_gloves",
+          "source_crop": [
+            633,
+            876,
+            301,
+            309
+          ],
+          "source_foot_anchor": [
+            787,
+            1164
+          ],
+          "slot": "gloves",
+          "tier": "uncommon",
+          "index": 10,
+          "cell": [
+            2,
+            2
+          ],
+          "safe_crop": [
+            826,
+            1142,
+            268,
+            275
+          ],
+          "foot_anchor": [
+            963.12,
+            1398.31
+          ],
+          "foot_anchor_in_crop": [
+            137.12,
+            256.31
+          ],
+          "foot_anchor_normalized": [
+            0.5116,
+            0.932
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            6,
+            6,
+            268,
+            274
+          ],
+          "resampled_dimensions": [
+            268,
+            275
+          ]
+        },
+        {
+          "name": "brass_solar_belt",
+          "source_crop": [
+            933,
+            902,
+            312,
+            258
+          ],
+          "source_foot_anchor": [
+            1089,
+            1136
+          ],
+          "slot": "belt",
+          "tier": "uncommon",
+          "index": 11,
+          "cell": [
+            3,
+            2
+          ],
+          "safe_crop": [
+            1210,
+            1169,
+            268,
+            222
+          ],
+          "foot_anchor": [
+            1344.0,
+            1370.35
+          ],
+          "foot_anchor_in_crop": [
+            134.0,
+            201.35
+          ],
+          "foot_anchor_normalized": [
+            0.5,
+            0.907
+          ],
+          "anchor_kind": "inventory_base",
+          "alpha_bbox_in_crop": [
+            0,
+            4,
+            264,
+            215
+          ],
+          "resampled_dimensions": [
+            268,
+            222
+          ]
+        }
+      ],
+      "prompt": "Use case: stylized-concept. Original game sprites for Gouden Horizon, a climate-action RPG set in postapocalyptic Netherlands 2089. Smooth polished hand-painted fantasy action-RPG art inspired by Torchlight: full readable volumes, brass, teal, weathered salvage, warm upper-left key light and soft cool fill. Broad sculptural painterly forms, detailed tangible salvaged materials, clear silhouettes. No pixel art, no vector art, no photorealism. Genuine transparent RGBA background, including transparent negative space between sprites. No backdrop, no scenery beyond the explicitly requested object, no ground tile, no text, no labels, no grid lines, no watermark. Each entire sprite including held weapons, shadows and glow fits well within its own cell's central 70 percent, leaving generous transparent margins all around. No part crosses any cell boundary.\nAsset type: production equipment sprite atlas, twelve distinct item sprites. EXACTLY 1536 by 1536 pixels. Strict invisible 4-column by 3-row layout, cells384 pixels wide and512 pixels high. Cell centers row1 (192,256),(576,256),(960,256),(1344,256), row2 (192,768),(576,768),(960,768),(1344,768), row3 (192,1280),(576,1280),(960,1280),(1344,1280). Put items in EXACTLY this row-major order. Each complete object fits central70% of its own rectangular cell, generous real transparent margins. Elevated three-quarter view. Equipment without people or mannequins.\nRow1 column1 / item0: simple salvaged duct-tape metal focus rod, grey metal with a small teal crystal; include the entire long rod.\nRow1 column2 / item1: sturdy navy utility coat with small brass clips, coat displayed as an isolated empty garment.\nRow1 column3 / item2: battered grey field compass relic, compact round mechanical instrument.\nRow1 column4 / item3: green crystal fork focus on a brass handle, include entire fork and handle.\nRow2 column1 / item4: plum-and-teal insulated ranger jacket, isolated empty garment.\nRow2 column2 / item5: golden cracked sun compass mechanical relic, warm gold compass with a sun motif, a crack and teal accents.\nRow2 column3 / item6: plain worn brown field boots, one recognizably coordinated pair grouped together.\nRow2 column4 / item7: simple sturdy brown work gloves, one coordinated pair grouped together.\nRow3 column1 / item8: compact salvage utility belt with grey pouches, complete small belt.\nRow3 column2 / item9: teal-and-gold insulated fast-travel boots, one coordinated pair, upgraded distinctive shapes.\nRow3 column3 / item10: copper-and-teal storm-casting gloves, one coordinated pair with restrained luminous teal detail.\nRow3 column4 / item11: warm brass solar belt with a small crystal core, complete belt and gold central mechanism.\nConsistent original gear style and recognizable common/uncommon base shapes. No person, mannequin, backdrop, captions, label, lettering, grid, separate decorative elements or shadow outside cells.",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "source_fully_transparent_percent": 58.582,
+      "cell_dimensions": [
+        384,
+        512
+      ],
+      "final_alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_percent": 79.382,
+      "verified_object_order": true,
+      "verified_central_70_percent": true
+    }
+  ],
+  "inspection_contact_sheet": "/workspace/scratch/19cb526127e1/output/expedition-assets/inspection-contact-sheet-64px.png",
+  "inspection_art_size": [
+    64,
+    64
+  ],
+  "anchor_coordinate_convention": "safe_crop is atlas [x,y,width,height]; foot_anchor is absolute atlas [x,y]; foot_anchor_in_crop is crop-local [x,y]; normalized anchor coordinates are relative to the corresponding crop."
+}

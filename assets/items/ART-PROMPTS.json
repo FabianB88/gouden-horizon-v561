@@ -1,0 +1,541 @@
+{
+  "generationTool": "built-in image_gen",
+  "noRetries": true,
+  "coordinateConvention": "Bounds are [left,top,right,bottom], right/bottom exclusive. Crop is [x,y,width,height] in actual source-image pixels.",
+  "assets": [
+    {
+      "name": "item-atlas",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "exactPrompt": "Use case: stylized-concept. Asset for an original premium hand-painted 2.5D climate action RPG, Gouden Horizon, Netherlands in 2089. Original fantasy salvage technology with smooth readable painted volumes, tactile weathered brass, teal crystals, leather and warm golden upper-left lighting. Rich beautifully painted game production art with the quality and readability of a colourful isometric action RPG. No pixel art or thin flat vector pictograms.\nAsset type: inventory and world pickup item sprite atlas.\nOutput: 1536x1536 square PNG with genuinely transparent background. EXACTLY FOUR COLUMNS BY FOUR ROWS, 16 evenly spaced isolated objects in equal 384x384 cells. Grid is invisible: no drawn boundaries or background.\nExtremely important layout: each complete object stays ENTIRELY inside its own cell with at least 18% transparent margin on ALL FOUR SIDES. Objects are intentionally SMALL in their cells: maximum painted silhouette 230x230 pixels, centered at each cell center. Total picture looks airy with generous clear transparent gutters. No object, glow, shadow or protruding staff tip may cross a cell edge. Long weapons are scaled down to fit inside their own cell. No overlapping.\nExactly these 16 full standalone objects, left to right in each row:\nROW 1: [1] water staff, salvaged wood and brass shaft with a cyan droplet-shaped crystal; [2] lightning brass scepter, violet fork-shaped crystal on top; [3] sun core focus, orange glowing sphere held in compact brass harness; [4] prism focus, luminous diamond-shaped crystal in a brass frame.\nROW 2: [5] teal water coat; [6] terracotta cooling coat with subtle blue piping; [7] moss-green living coat with small leaflike details; [8] gold and brass armored coat.\nROW 3: [9] cyan condensation-heart relic, heart-shaped luminous crystal in compact brass; [10] green and teal vector-loop relic, thick loop-shaped mechanical ring; [11] violet and gold feedback-lens relic, compact circular brass lens with violet optical crystal; [12] a seed inside a small glass capsule relic.\nROW 4: [13] simple field staff, worn wood and restrained brass fittings; [14] brown and teal field coat; [15] small field measurement lens, simple brass field optic with a teal lens; [16] weathered brass-and-wood expedition loot chest, visible lid and luminous teal latch.\nCoats are empty standalone wearable item cutouts, no mannequin, human, head, hands or feet. Staves and relics are standalone objects. View each object in cohesive elevated 3/4 game-camera perspective, full silhouette readable at 64px, rich smooth painted materials. Clear distinct shapes; restrained glow stays within silhouette vicinity.\nConstraints: true transparent alpha background throughout all gutters and cell margins; absolutely no floor, colored backdrop, painted checkerboard, labels, text, numbers, grid lines, UI, decorative icon frame, logos, watermark, characters, duplicate items, missing items or extra items. EXACTLY 16 individual objects in 4x4 equally sized cells. No cast shadows crossing cells.",
+      "alpha": {
+        "extrema": [
+          0,
+          255
+        ],
+        "zeroAlphaPixelFraction": 0.6064377087419143,
+        "verifiedGenuineTransparency": true,
+        "visibleObjectCellBoundariesClean": false
+      },
+      "grid": {
+        "columns": 4,
+        "rows": 4,
+        "visualOrderVerified": true,
+        "strictRequestedGridMet": false,
+        "nominalFractionalCellSize": [
+          313.5,
+          313.5
+        ]
+      },
+      "inspectionNotes": [
+        "All 16 specified items present and isolated, full silhouettes and no characters or text.",
+        "Painted detail remains readable at 64px; objects match warm brass/teal/leather direction.",
+        "Actual output is 1254x1254 rather than requested preferred 1536x1536.",
+        "Generation did not honor 18% margins. Field coat begins at y926, crossing the nominal fourth-row boundary y940.5. Use per-object source crops below to avoid clipping.",
+        "Sun-core and prism focuses are rendered with short staff handles; all objects are original standalone salvage equipment."
+      ],
+      "objects": [
+        {
+          "id": "water-staff",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "tightAlpha30Bounds": [
+            49,
+            28,
+            295,
+            304
+          ],
+          "crop": [
+            41,
+            20,
+            262,
+            292
+          ]
+        },
+        {
+          "id": "lightning-scepter",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "tightAlpha30Bounds": [
+            385,
+            28,
+            595,
+            302
+          ],
+          "crop": [
+            377,
+            20,
+            226,
+            290
+          ]
+        },
+        {
+          "id": "sun-core-focus",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "tightAlpha30Bounds": [
+            691,
+            39,
+            916,
+            296
+          ],
+          "crop": [
+            683,
+            31,
+            241,
+            273
+          ]
+        },
+        {
+          "id": "prism-focus",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "tightAlpha30Bounds": [
+            1032,
+            23,
+            1217,
+            295
+          ],
+          "crop": [
+            1024,
+            15,
+            201,
+            288
+          ]
+        },
+        {
+          "id": "water-coat",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "tightAlpha30Bounds": [
+            56,
+            330,
+            276,
+            622
+          ],
+          "crop": [
+            48,
+            322,
+            236,
+            308
+          ]
+        },
+        {
+          "id": "cooling-coat",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "tightAlpha30Bounds": [
+            380,
+            327,
+            594,
+            614
+          ],
+          "crop": [
+            372,
+            319,
+            230,
+            303
+          ]
+        },
+        {
+          "id": "living-coat",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "tightAlpha30Bounds": [
+            686,
+            328,
+            901,
+            610
+          ],
+          "crop": [
+            678,
+            320,
+            231,
+            298
+          ]
+        },
+        {
+          "id": "armored-coat",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "tightAlpha30Bounds": [
+            999,
+            328,
+            1221,
+            616
+          ],
+          "crop": [
+            991,
+            320,
+            238,
+            304
+          ]
+        },
+        {
+          "id": "condensation-heart",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "tightAlpha30Bounds": [
+            57,
+            642,
+            288,
+            884
+          ],
+          "crop": [
+            49,
+            634,
+            247,
+            258
+          ]
+        },
+        {
+          "id": "vector-loop",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "tightAlpha30Bounds": [
+            360,
+            645,
+            609,
+            896
+          ],
+          "crop": [
+            352,
+            637,
+            265,
+            267
+          ]
+        },
+        {
+          "id": "feedback-lens",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "tightAlpha30Bounds": [
+            668,
+            658,
+            921,
+            891
+          ],
+          "crop": [
+            660,
+            650,
+            269,
+            249
+          ]
+        },
+        {
+          "id": "seed-capsule",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "tightAlpha30Bounds": [
+            999,
+            655,
+            1208,
+            887
+          ],
+          "crop": [
+            991,
+            647,
+            225,
+            248
+          ]
+        },
+        {
+          "id": "field-staff",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "tightAlpha30Bounds": [
+            56,
+            942,
+            280,
+            1212
+          ],
+          "crop": [
+            48,
+            934,
+            240,
+            286
+          ]
+        },
+        {
+          "id": "field-coat",
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "tightAlpha30Bounds": [
+            385,
+            926,
+            585,
+            1215
+          ],
+          "crop": [
+            377,
+            918,
+            216,
+            305
+          ]
+        },
+        {
+          "id": "measurement-lens",
+          "index": 14,
+          "row": 3,
+          "column": 2,
+          "tightAlpha30Bounds": [
+            658,
+            984,
+            917,
+            1158
+          ],
+          "crop": [
+            650,
+            976,
+            275,
+            190
+          ]
+        },
+        {
+          "id": "expedition-chest",
+          "index": 15,
+          "row": 3,
+          "column": 3,
+          "tightAlpha30Bounds": [
+            967,
+            967,
+            1230,
+            1193
+          ],
+          "crop": [
+            959,
+            959,
+            279,
+            242
+          ]
+        }
+      ],
+      "sourceAssetName": "item-atlas.png"
+    },
+    {
+      "name": "skill-atlas",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "exactPrompt": "Use case: stylized-concept. Asset for an original premium hand-painted 2.5D climate action RPG, Gouden Horizon, Netherlands in 2089. Original fantasy salvage technology with smooth readable painted volumes, tactile weathered brass, teal crystals, leather and warm golden upper-left lighting. Rich beautifully painted game production art with the quality and readability of a colourful isometric action RPG. No pixel art or thin flat vector pictograms.\nAsset type: ability icon sprite atlas, transparent 1536x1024 landscape PNG.\nEXACTLY THREE COLUMNS BY TWO ROWS, six equally sized 512x512 invisible cells. Six isolated painted magical symbols with rich sculpted painted volumes, absolutely not thin vector glyphs.\nEach entire symbol including its glow must be contained in the central 60% of its own cell, with at least 20% genuine transparent margin on every side. Maximum silhouette 290x290 pixels in each cell. Airy evenly spaced layout with large transparent gutters, no cross-cell overlap.\nTop row left to right: [1] a cyan and teal WATER CRESCENT FAN, a broad sculpted curved fan of liquid water; [2] BRANCHING VIOLET LIGHTNING, three thick energetic prongs with brilliant painted inner light; [3] a FLAMING GOLDEN ORANGE BOMB, compact spherical magical bomb wrapped in a curling flame.\nBottom row left to right: [4] an ICE SPEAR CRYSTAL, one pointed crystalline icy cyan spear shape with rich faceted painted volume; [5] a MINT-GREEN WIND BOOMERANG SWIRL, one curved wind slash shaped like a thick flowing boomerang; [6] a PURPLE BLACK GRAVITY ORB with one rich gold orbital ring, dense dark glowing sphere and gold band.\nCohesive premium painterly magical volumes, readable at 64px, original climate magic effects, upper-left painted light.\nConstraints: exactly six complete isolated symbols; genuine transparent alpha background and margins; no ground, backdrop, checkerboard painted in, cell outlines, grid, framing, UI, lettering, labels, text, numerals, watermarks, duplicate symbols, extra symbols or elements crossing cell boundaries.",
+      "alpha": {
+        "extrema": [
+          0,
+          253
+        ],
+        "zeroAlphaPixelFraction": 0.4597180684407552,
+        "verifiedGenuineTransparency": true,
+        "visibleObjectCellBoundariesClean": true,
+        "internalColumnBordersAlphaMax": 0,
+        "internalRowBorderAlphaMax": 1
+      },
+      "grid": {
+        "columns": 3,
+        "rows": 2,
+        "cellSize": [
+          512,
+          512
+        ],
+        "exactEvenGridVerified": true
+      },
+      "inspectionNotes": [
+        "Exactly six rich painted effects in requested order, complete and visually separated.",
+        "All intended 512x512 cell boundaries are clean of visible art; horizontal boundary contains only sparse alpha=1 residual pixels.",
+        "Requested 20% margins were not honored; most symbols fill roughly 80–90% of cell. Consumers can apply additional layout padding while drawing.",
+        "Broad transparent background verified by zero-alpha corners, zero-alpha column separators and composite inspection."
+      ],
+      "objects": [
+        {
+          "id": "water-crescent",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "cellCrop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            56,
+            44,
+            481,
+            465
+          ]
+        },
+        {
+          "id": "violet-lightning",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "cellCrop": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            554,
+            33,
+            988,
+            467
+          ]
+        },
+        {
+          "id": "flaming-bomb",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "cellCrop": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            1090,
+            22,
+            1468,
+            476
+          ]
+        },
+        {
+          "id": "ice-spear",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "cellCrop": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            56,
+            534,
+            469,
+            991
+          ]
+        },
+        {
+          "id": "wind-boomerang",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "cellCrop": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            558,
+            529,
+            986,
+            988
+          ]
+        },
+        {
+          "id": "gravity-orb",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "cellCrop": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "tightAlpha30Bounds": [
+            1063,
+            543,
+            1483,
+            981
+          ]
+        }
+      ],
+      "sourceAssetName": "skill-atlas.png"
+    },
+    {
+      "name": "ui-materials",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "exactPrompt": "Use case: stylized-concept.\nAsset type: two original interface material texture swatches for a premium hand-painted 2.5D climate adventure RPG, 1536x1024 landscape.\nFULL CANVAS ONLY MATERIAL TEXTURES. Divide the image EXACTLY into two equal vertical halves at x=768, a clean perfectly straight central vertical division. Both texture swatches run edge to edge and top to bottom, with NO border, NO outside area, NO gap and NO perspective.\nLEFT HALF: warm aged cream parchment, lightly mottled with extremely fine fibres, smooth restrained pale cream/ochre variations. Evenly readable surface for interface text. No dark stains, objects, lettering, illustration or strong highlights.\nRIGHT HALF: dark weathered teal leather, restrained subtle fine grain and soft light variations. Rich painted tactile material, uniformly dark teal, evenly readable surface. No seams, embossed shapes, stitches, objects, lettering, illustration or strong highlights.\nThis is a flat front-facing sheet of two material swatches intended for cropped or tiled interface use, not a UI mockup and not a framed panel. Smooth polished painted game quality, original materials that match warm-lit brass/teal world art.\nConstraints: exactly 50/50 vertical split, full-canvas texture, no UI controls, text, labels, symbols, stains, holes, objects, frames, borders, shadows, gradients that compromise readability, vignette, logos or watermark. Opaque background.",
+      "alpha": {
+        "opaque": true
+      },
+      "swatches": [
+        {
+          "id": "parchment",
+          "crop": [
+            0,
+            0,
+            768,
+            1024
+          ]
+        },
+        {
+          "id": "teal-leather",
+          "crop": [
+            768,
+            0,
+            768,
+            1024
+          ]
+        }
+      ],
+      "inspectionNotes": [
+        "Full canvas, exactly 50/50 vertical split at x768 confirmed visually and by strongest RGB transition.",
+        "Left warm cream parchment, right dark teal leather; no UI, objects, text, frames or stains.",
+        "Restrained uniform illumination suitable for UI backgrounds. Texture grain is noticeable at native resolution and subtler when displayed downscaled.",
+        "These are material swatches; seamless tiling across arbitrary crop edges was not guaranteed."
+      ],
+      "sourceAssetName": "ui-materials.png"
+    }
+  ],
+  "integration": {
+    "items": {
+      "water-staff": "tide-staff",
+      "lightning-scepter": "storm-staff",
+      "sun-core-focus": "sun-staff",
+      "prism-focus": "prism",
+      "water-coat": "tide-coat",
+      "cooling-coat": "cinder-coat",
+      "living-coat": "bloom-coat",
+      "armored-coat": "brass-coat",
+      "condensation-heart": "reservoir",
+      "vector-loop": "vector",
+      "feedback-lens": "feedback",
+      "seed-capsule": "seed",
+      "field-staff": "field-staff",
+      "field-coat": "field-coat",
+      "measurement-lens": "field-lens",
+      "expedition-chest": "loot-chest"
+    },
+    "icons": "Per-object crops fitted to 224px inside a transparent 256px square. Lossless WebP.",
+    "skills": "512px cells downsampled to 256px, lossless WebP.",
+    "materials": "Two 768x1024 crops, WebP quality 88. CSS uses cover to avoid tiling seams."
+  }
+}

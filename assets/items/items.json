@@ -1,0 +1,210 @@
+{
+  "tide-staff": {
+    "bounds": [
+      41,
+      20,
+      262,
+      292
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "tide-staff.webp"
+  },
+  "storm-staff": {
+    "bounds": [
+      377,
+      20,
+      226,
+      290
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "storm-staff.webp"
+  },
+  "sun-staff": {
+    "bounds": [
+      683,
+      31,
+      241,
+      273
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "sun-staff.webp"
+  },
+  "prism": {
+    "bounds": [
+      1024,
+      15,
+      201,
+      288
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "prism.webp"
+  },
+  "tide-coat": {
+    "bounds": [
+      48,
+      322,
+      236,
+      308
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "tide-coat.webp"
+  },
+  "cinder-coat": {
+    "bounds": [
+      372,
+      319,
+      230,
+      303
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "cinder-coat.webp"
+  },
+  "bloom-coat": {
+    "bounds": [
+      678,
+      320,
+      231,
+      298
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "bloom-coat.webp"
+  },
+  "brass-coat": {
+    "bounds": [
+      991,
+      320,
+      238,
+      304
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "brass-coat.webp"
+  },
+  "reservoir": {
+    "bounds": [
+      49,
+      634,
+      247,
+      258
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "reservoir.webp"
+  },
+  "vector": {
+    "bounds": [
+      352,
+      637,
+      265,
+      267
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "vector.webp"
+  },
+  "feedback": {
+    "bounds": [
+      660,
+      650,
+      269,
+      249
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "feedback.webp"
+  },
+  "seed": {
+    "bounds": [
+      991,
+      647,
+      225,
+      248
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "seed.webp"
+  },
+  "field-staff": {
+    "bounds": [
+      48,
+      934,
+      240,
+      286
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "field-staff.webp"
+  },
+  "field-coat": {
+    "bounds": [
+      377,
+      918,
+      216,
+      305
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "field-coat.webp"
+  },
+  "field-lens": {
+    "bounds": [
+      650,
+      976,
+      275,
+      190
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "field-lens.webp"
+  },
+  "loot-chest": {
+    "bounds": [
+      959,
+      959,
+      279,
+      242
+    ],
+    "anchor": [
+      0.5,
+      0.95
+    ],
+    "icon": "loot-chest.webp"
+  }
+}

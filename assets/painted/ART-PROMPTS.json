@@ -1,0 +1,184 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "name": "flood-arena",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/flood-arena.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: landscape playable arena background, 1536x1024.\nScene: a flooded Rotterdam transit plaza, cracked warm grey stone, shallow teal water canals only around the edges, overgrown modern buildings and solar roofs, small salvaged boats at the perimeter, short bridges around edges. Golden sunlight from upper left.\nComposition: fixed high overhead angled 3/4 tactical camera, orthographic-like perspective, NO SKY OR HORIZON. The entire broad flat playable courtyard occupies the central 75% of frame. Center is open, continuous navigable ground. Decorative buildings and vegetation hug the outer border. Include clear open ground at normalized image positions (20%,65%) player spawn, (28%,30%) relay position, (72%,62%) relay position, (80%,27%) exit position, with clear continuous routes between these locations. These positions are empty ground only, without labels or visible markers. Keep meaningful environmental detail around the courtyard perimeter. Warm illuminated paving contrasts with teal waterways and green foliage.\nConstraints: no characters, enemies, sprites, interfaces, HUD, UI, text, lettering, signs, logos, watermarks, sky, horizon, or large barriers in the gameplay paths. Render a finished detailed hand-painted background filling the entire landscape image."
+    },
+    {
+      "name": "heat-arena",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/heat-arena.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: landscape playable arena background, 1536x1024.\nScene: a wide cracked highway rest-stop courtyard in a heat-stricken Netherlands, warm terracotta stone and asphalt, solar-panel shade structures at perimeter edges, modest thin heat fissures in ground, blue cooling piping, dry golden grasses, modern ruined rest-stop buildings perimeter. No sky.\nComposition: fixed high overhead angled 3/4 tactical camera, orthographic-like perspective, NO SKY OR HORIZON. The entire broad flat playable courtyard occupies the central 75% of frame. Center is open continuous navigable ground. Decorative buildings, shade canopies, vegetation and pipes hug the outer border. Include clear open ground at normalized image positions (20%,65%) player spawn, (28%,30%) relay position, (72%,62%) relay position, (80%,27%) exit position, with clear continuous routes between these locations. These positions are empty ground only, without labels or visible markers.\nLighting: rich golden sunlight from upper left with smooth painterly material detail, warm terracotta and ochre palette balanced by cooling blue pipe accents.\nConstraints: no characters, enemies, sprites, interfaces, HUD, UI, text, lettering, signs, logos, watermarks, sky, horizon, large central obstacles or deep fissures that block gameplay routes. Render finished polished hand-painted background filling the entire landscape image."
+    },
+    {
+      "name": "grove-arena",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/grove-arena.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: landscape playable arena background, 1536x1024.\nScene: an abandoned biotech knowledge park courtyard, mossy stone paving, bronze and glass laboratories around perimeter, tall colourful lush overgrowth at perimeter, luminous teal mushrooms and small floating spores, narrow water channels at outer edges.\nComposition: fixed high overhead angled 3/4 tactical camera, orthographic-like perspective, NO SKY OR HORIZON. The entire broad flat playable courtyard occupies the central 75% of frame. Center is open continuous navigable ground, some fine moss between stones, clear stone court with lush biodiversity at its edges. Decorative laboratories, tall vegetation and mushrooms hug the outer border. Include clear open ground at normalized image positions (20%,65%) player spawn, (28%,30%) relay position, (72%,62%) relay position, (80%,27%) exit position, with clear continuous routes between these locations. These positions are empty ground only, without labels or visible markers.\nLighting: rich golden sunlight from upper left through canopy, painterly greens, violet flowers, bronze glass and teal luminescence.\nConstraints: no characters, enemies, sprites, interfaces, HUD, UI, text, lettering, signs, logos, watermarks, sky, horizon, or large barriers in the gameplay paths. Render a finished detailed hand-painted background filling the entire landscape image."
+    },
+    {
+      "name": "aurelia-arena",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/aurelia-arena.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: landscape playable arena background, 1536x1024.\nScene: a golden climate-engine citadel platform over the sea. Sea visible ONLY at very outer frame edges. Broad slate stone court in brass engineering architecture, brass arcs inlaid flat in ground, teal crystal climate cores and tall pylons around outer perimeter, storm glow reflected on brass. Central ritual and engineering circle remains flat and open, no central machinery.\nComposition: fixed high overhead angled 3/4 tactical camera, orthographic-like perspective, NO SKY OR HORIZON. The entire broad circular flat playable courtyard occupies the central 75% of frame. Center is open continuous navigable ground, inlaid flat brass rings and small engravings without actual text. Decorative perimeter structures hug the outer border. Include clear open ground at normalized image positions (20%,65%) player spawn, (28%,30%) relay position, (72%,62%) relay position, (80%,27%) exit position, with clear continuous routes between these locations. These positions are empty ground only, without labels or visible markers.\nLighting: golden upper-left light and electric teal accents, rich smooth slate and brass materials, luxurious dramatic atmosphere without reducing tactical readability.\nConstraints: no characters, enemies, sprites, interfaces, HUD, UI, text, lettering, signs, logos, watermarks, sky, horizon, or large barriers in the gameplay paths. Render a finished detailed hand-painted background filling the entire landscape image."
+    },
+    {
+      "name": "hero",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/hero.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: a single full-body game character sprite for the protagonist, on a genuinely transparent background; one sprite only.\nSubject: an androgynous climate field engineer adventurer, original design. Practical flowing teal field coat, ochre scarf, compact worn leather backpack, resilient field boots, salvaged staff with a glowing teal climate core. Brave capable expression, short tousled hair. Strong readable silhouette and rich smooth painted materials.\nComposition: angled overhead 2.5D game sprite, viewed in 3/4 from above and facing diagonally down-right. Full body including entire staff, head and boots, centered with 12% transparent padding on all sides. One standing character, mildly active ready posture, readable at small scale. Smooth rounded forms and richly painted light, no pixelated edges.\nLighting: golden key light from upper left, teal core glow, restrained painted shading.\nConstraints: genuinely transparent alpha background, no floor, ground, stage, platform, background colour, checkerboard painted into the image, decorative frame, text, logo, watermark, extra characters, duplicates or anatomical errors. No shadow beyond a tiny soft contact shadow under boots.",
+      "repairPrompt": "Use case: precise-object-edit. Edit this original full-body climate engineer game sprite only to repair its framing. Keep the same character, face, teal coat, ochre scarf, backpack, staff, painterly materials and golden upper-left lighting. Preserve genuine transparent alpha background. Scale the entire character uniformly smaller within the canvas and center it, so the full body plus staff fits within the central 72% of width and 72% of height. Add generous genuine transparent whitespace, at least 14% padding on every side. Preserve the complete head, boots and staff. Do not add any environment, ground, platforms, text, logos or extra characters. Keep the overhead 3/4 camera and diagonal down-right facing."
+    },
+    {
+      "name": "enemy-atlas",
+      "path": "/workspace/scratch/19cb526127e1/output/painted-game-assets/enemy-atlas.png",
+      "initialPrompt": "Use case: stylized-concept. Asset for an original browser climate action RPG named Gouden Horizon, Netherlands in 2089. Colourful premium hand-painted 2.5D isometric action RPG art with the smooth readable forms, rich materials, painted light and jewel colours associated with Nine Parchments and Torchlight 2, but completely original environment designs. Beautiful painterly polished game production art, less pixelated, absolutely no pixel art.\nAsset type: a transparent enemy and object sprite atlas, 1536x1024 landscape, EXACTLY 3 columns x 2 rows of equally sized cells, six separate centered full body objects. True transparent background.\nSix cells left to right, top row then bottom row:\nTOP LEFT: rust and coral hovering inspection drone, original compact mechanical form, circular teal lens, two short stabilizer arms.\nTOP MIDDLE: armoured scavenger human enemy, dark salvaged armour and ochre cloth, compact fiery orange climate coil weapon.\nTOP RIGHT: mossy root beast, low powerful quadruped creature made from gnarled roots, moss, flower spores and small teal eyes.\nBOTTOM LEFT: bronze tripod arc turret, three articulated legs and a teal electric turret head.\nBOTTOM MIDDLE: tall golden guardian boss, elegant bronze and golden climate armour, staff, luminous teal core in chest, taller than the other units.\nBOTTOM RIGHT: teal and brass restored relay shrine object, upright compact shrine pillar with glowing teal crystal core and brass base.\nComposition: exactly one isolated sprite in each equal-sized grid cell, generous transparent whitespace margins, never overlapping or crossing cells. Consistent relative scale; guardian boss is taller. All share the same fixed 2.5D angled overhead camera in 3/4 view, upper-left light, diagonal down-right facing. Show complete feet, staff, antennae, branches, legs and bases in each cell. No outlines around cells. Full-body centered objects with base/feet near the lower area of each cell.\nStyle: original colourful polished hand-painted ARPG assets, smooth readable silhouettes, rich painted bronze, rust, moss and teal light. Not pixel art.\nConstraints: genuine transparent alpha throughout background, no floor/ground/background, no checkerboard drawn into art, no labels, lettering, grids, frames, numbers, logos, UI, watermark, duplicate objects or extra objects. EXACTLY SIX isolated sprites in exactly a 3-by-2 atlas.",
+      "repairPrompt": "Use case: precise-object-edit. Repair only the spatial layout of this six-sprite transparent game atlas. Preserve these SAME six original character and object designs and the hand-painted materials. The deliverable is a 1536x1024 image with EXACTLY 3 columns x 2 rows, each cell EXACTLY 512x512. All six sprites must fit ENTIRELY INSIDE THEIR OWN CELLS with 60 pixels minimum transparent padding to every cell edge. Top row: drone in x0-512,y0-512; scavenger in x512-1024,y0-512; root beast in x1024-1536,y0-512. Bottom row: tripod turret in x0-512,y512-1024; golden guardian in x512-1024,y512-1024; relay shrine in x1024-1536,y512-1024. IMPORTANT shrink the golden guardian so its highest staff/helmet point is at y570 or lower, and its bottom foot is no lower than y960. The guardian must not intrude into the top row. Uniformly scale each entire sprite as necessary; maintain each complete body, staff, feet, legs, branches and base. At least 120 pixels of transparent empty space between top and bottom row sprites. Exactly six separate objects centered in these six cells. Preserve genuine transparent alpha background, remove no parts, add no floor, coloured background, checkerboard, grid, labels, text or new objects."
+    }
+  ],
+  "hero": {
+    "width": 1214,
+    "height": 1295,
+    "alphaThreshold": 30,
+    "tightAlphaBounds": [
+      239,
+      205,
+      1040,
+      1122
+    ],
+    "crop": [
+      223,
+      189,
+      833,
+      949
+    ],
+    "feetAnchor": [
+      582,
+      1028
+    ],
+    "bottomBootAnchor": [
+      478,
+      1118
+    ]
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 1024,
+    "alphaThreshold": 30,
+    "sprites": [
+      {
+        "id": "drone",
+        "tightAlphaBounds": [
+          79,
+          38,
+          484,
+          421
+        ],
+        "crop": [
+          63,
+          22,
+          437,
+          415
+        ],
+        "feetAnchor": [
+          270,
+          425
+        ]
+      },
+      {
+        "id": "scavenger",
+        "tightAlphaBounds": [
+          604,
+          22,
+          953,
+          473
+        ],
+        "crop": [
+          588,
+          6,
+          381,
+          483
+        ],
+        "feetAnchor": [
+          760,
+          453
+        ]
+      },
+      {
+        "id": "root-beast",
+        "tightAlphaBounds": [
+          1023,
+          27,
+          1519,
+          512
+        ],
+        "crop": [
+          1007,
+          11,
+          529,
+          517
+        ],
+        "feetAnchor": [
+          1292,
+          474
+        ]
+      },
+      {
+        "id": "turret",
+        "tightAlphaBounds": [
+          68,
+          554,
+          475,
+          992
+        ],
+        "crop": [
+          52,
+          538,
+          439,
+          470
+        ],
+        "feetAnchor": [
+          260,
+          934
+        ]
+      },
+      {
+        "id": "guardian",
+        "tightAlphaBounds": [
+          632,
+          526,
+          915,
+          981
+        ],
+        "crop": [
+          616,
+          510,
+          315,
+          487
+        ],
+        "feetAnchor": [
+          783,
+          940
+        ]
+      },
+      {
+        "id": "relay",
+        "tightAlphaBounds": [
+          1118,
+          566,
+          1440,
+          996
+        ],
+        "crop": [
+          1102,
+          550,
+          354,
+          462
+        ],
+        "feetAnchor": [
+          1280,
+          969
+        ]
+      }
+    ]
+  },
+  "notes": "Bounds are [left, top, right, bottom]; crop is [x,y,width,height]. Feet anchors are approximate source-space painted contact centers, not cropped-space. Maps are 1536x1024 RGB. Sprites are RGBA with genuine zero-alpha background. Repaired atlas is six isolated sprites but generation is not mathematically exact grid; use listed individual crop bounds."
+}

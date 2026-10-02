@@ -1,0 +1,103 @@
+{
+  "provenance": "All four assets are original AI-generated art created with built-in OpenAI image_gen for Gouden Horizon. No external stock or game artwork was incorporated.",
+  "license_text": "Original AI-generated artwork supplied for use in Gouden Horizon, subject to applicable OpenAI Terms of Use; no third-party asset license is asserted.",
+  "playable_polygon_normalized": [
+    [
+      0.22,
+      0.24
+    ],
+    [
+      0.68,
+      0.18
+    ],
+    [
+      0.84,
+      0.25
+    ],
+    [
+      0.88,
+      0.47
+    ],
+    [
+      0.87,
+      0.55
+    ],
+    [
+      0.76,
+      0.69
+    ],
+    [
+      0.61,
+      0.72
+    ],
+    [
+      0.52,
+      0.76
+    ],
+    [
+      0.3,
+      0.72
+    ],
+    [
+      0.2,
+      0.65
+    ],
+    [
+      0.15,
+      0.5
+    ]
+  ],
+  "assets": [
+    {
+      "name": "dijkbreker-arena-v56",
+      "path": "assets/painted/trial-tide.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 469874,
+      "inspection": "Polygon overlay visually inspected; open continuous floor, no interior obstacles."
+    },
+    {
+      "name": "glasstorm-arena-v56",
+      "path": "assets/painted/trial-glass.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 445734,
+      "inspection": "Polygon overlay visually inspected; open continuous floor, no interior obstacles."
+    },
+    {
+      "name": "nulfront-arena-v56",
+      "path": "assets/painted/trial-null.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 449846,
+      "inspection": "Polygon overlay visually inspected; open continuous floor, no interior obstacles."
+    },
+    {
+      "name": "prismaboog-icon-v56",
+      "path": "assets/items/skill-prism.webp",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 104954,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.8280754089355469,
+      "alpha_bbox_gt16": [
+        73,
+        144,
+        446,
+        372
+      ],
+      "all_edge_pixels_transparent": true
+    }
+  ]
+}

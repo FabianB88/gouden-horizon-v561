@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gouden-horizon-rpg
+    runtime: static
+    buildCommand: npm test && npm run site:build
+    staticPublishPath: dist
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
